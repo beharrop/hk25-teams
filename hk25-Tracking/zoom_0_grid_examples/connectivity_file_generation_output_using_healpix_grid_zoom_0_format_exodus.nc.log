@@ -1,0 +1,21 @@
+Arguments:
+  --in_mesh <string> ["healpix_grid_zoom_0_format_exodus.nc"] 
+  --in_data <string> [""] 
+  --in_concave <bool> [false] 
+  --out_type <string> ["FV"] [FV|CGLL|DGLL]
+  --out_np <integer> [4] 
+  --out_connect <string> ["connect_healpix_grid_zoom_0_format_exodus.nc.txt"] 
+  --latname <string> ["lat"] 
+  --lonname <string> ["lon"] 
+------------------------------------------------------------
+Loading mesh
+..Mesh size: Nodes [14] Elements [12]
+..Done
+Calculating connectivity information
+..Mesh size: Edges [24]
+..Done
+Converting mesh to connectivity format
+..Total calculated area: 4.271952141982792e+01 sr
+..Done
+Writing connectivity file.. Done
+------------------------------------------------------------
